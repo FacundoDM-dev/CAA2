@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #EBEBFF;
+}
+
+.header-container {
+  background-image: url("/images/cabecera.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container__title {
+  transform: rotate(180deg);
+  text-align: center;
+}
+
+.nav-main-container {
+  display: flex;
+}
+
+.nav {
+  width: 15%;
+  background-color: white;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+.nav a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.main {
+  width: 85%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-container {
+  background-image: linear-gradient(#94bdd6, #ebf7ff);
+  width: 85%;
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.explain-container__itemlist {
+  list-style-type: none;
+}
+
+.explain-container__itemlist li {
+  background: url("/images/list-icon.png") no-repeat left center;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.press-post-container__title {
+  background-color: #94bdd6;
+}
+
+.press-post-insidecont {
+  background-color: #ebf7ff;
+}
+
+.univercity-container a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a h4{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
+
+.univercity-container img {
+
+  width: 230px;
+}
+
+.univercity-container__images{
+    display: flex;
+}
+
+.footer {
+  background-color: #94bdd6;
+  display: flex;
+
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer-list__one {
+  text-align: right;
+  margin-right: 20px;
+}
