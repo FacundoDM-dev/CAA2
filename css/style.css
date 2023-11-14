@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* ///////////// GLOBAL //////////////\ */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +11,13 @@
 body {
   width: 1200px;
   margin: 0 auto;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.13) 5px 5px 5px;
+}
+
+h2 {
+  font-size: 1.7rem;
 }
 
 .header-container {
@@ -24,6 +34,7 @@ body {
 .header-container__title {
   transform: rotate(180deg);
   text-align: center;
+  width: 350px;
 }
 
 .nav-main-container {
@@ -31,89 +42,163 @@ body {
 }
 
 .nav {
+  font-family: "Zilla Slab", serif;
   width: 15%;
   background-color: white;
 }
 
 .nav ul {
-    list-style: none;
-    padding: 20px 0px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+  list-style: none;
+  padding: 20px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .nav a {
-    text-decoration: none;
-    font-style: italic;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .main {
+  font-family: "Zilla Slab", serif;
   width: 85%;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-left: #94bdd656 3px solid;
 }
+
+/* ///////////// FOR INDEX.HTML //////////////\ */
+
+/* ///////////// INTRO CONAINER //////////////\ */
 
 .intro-container {
   background-image: linear-gradient(#94bdd6, #ebf7ff);
   width: 85%;
-  padding: 100px 40px;
+  margin-top: 15px;
+  padding: 50px 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 15px;
+}
+
+.intro-container__content {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* ///////////// EXPLAIN CONAINER //////////////\ */
+
+.explain-container {
+  width: 85%;
+  margin-top: 40px;
+}
+
+.explain-container__title {
+  border-bottom: #94bdd656 solid 4px;
 }
 
 .explain-container__itemlist {
   list-style-type: none;
+  margin: 20px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .explain-container__itemlist li {
   background: url("/images/list-icon.png") no-repeat left center;
   padding-left: 30px;
   margin-bottom: 10px;
+  font-size: 1.6rem;
 }
 
-.press-post-container__title {
+/* ///////////// PRESS CONAINER //////////////\ */
+
+.press-container {
+  width: 85%;
+  margin-top: 40px;
+
+}
+
+.press-container__title {
+  border-bottom: #94bdd656 solid 4px;
+}
+
+.press-container__post-title {
   background-color: #94bdd6;
 }
 
-.press-post-insidecont {
+/* ///////////// PRESS CONAINER => POST //////////////\ */
+
+.press-container__post-cont {
+  box-shadow: rgba(0, 0, 0, 0.253) 4px 4px 4px;
+  height: 225px;
+  margin-top: 30px;
+}
+
+.post-title {
+  background-color: #94bdd6;
+  height: 35px;
+  padding: 6px 0px 0px 10px;
+}
+
+.post-content {
   background-color: #ebf7ff;
+  width: 90%;
+  height: 35%;
+  margin: 5%;
+  }
+
+/* ///////////// UNIVERSITYS CONAINER //////////////\ */
+
+.univercity-container a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
-.univercity-container a{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    text-decoration: none;
+a h4 {
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-style: italic;
 }
 
-a h4{
-    background-color: blue;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-style: italic;
-
+.univercity-container {
+  width: 85%;
+  margin-top: 40px;
 }
-
 .univercity-container img {
-
-  width: 230px;
+  margin: 10px;
+  width: 180px;
 }
 
-.univercity-container__images{
-    display: flex;
+.univercity-container__title {
+  border-bottom: #94bdd656 solid 4px;
 }
+
+.univercity-container__images {
+  margin: 30px 0px 30px 0px;
+  display: flex;
+
+  gap: 15px;
+}
+.univercity-container__images a {
+  border: black 1px solid;
+}
+
+/* ///////////// FOOTER //////////////\ */
 
 .footer {
   background-color: #94bdd6;
   display: flex;
-
 }
 
 .footer ul {
@@ -123,4 +208,35 @@ a h4{
 .footer-list__one {
   text-align: right;
   margin-right: 20px;
+}
+
+/* ///////////// FOR NEWS.HTML //////////////\ */
+
+/* ///////////// NEWS CONTAINER //////////////\ */
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-container_title {
+  text-align: center;
+}
+
+.news-container_title h1 {
+  background-image: linear-gradient(#94bdd6, #ebf7ff);
+}
+
+.news-container_post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.news-container_post h3,
+p {
+  text-align: center;
 }
