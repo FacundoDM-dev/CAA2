@@ -34,7 +34,10 @@ h2 {
 .header-container__title {
   transform: rotate(180deg);
   text-align: center;
-  width: 350px;
+  width: 500px;
+  font-size: 3rem;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.473) 3px 3px 3px;
 }
 
 .nav-main-container {
@@ -58,6 +61,7 @@ h2 {
 .nav a {
   text-decoration: none;
   font-style: italic;
+  color: black;
 }
 
 .main {
@@ -150,7 +154,7 @@ h2 {
   background-color: #ebf7ff;
   border-left: 4px #94bdd6 solid;
   width: 90%;
-  height: 40%;
+  height: 50%;
   margin: 5%;
   color: #94bdd6;
   }
@@ -165,14 +169,17 @@ h2 {
 
   .post-msg{
     font-size: 1.2rem;
-    margin: 0px 0px 0px 70px;
+    margin: 0px 0px 10px 70px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
   }
 
   .post-author{
     text-align: right;
     margin: 0px 20px 20px 0px;
     font-style: italic; 
-    font-weight: 600;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
   }
 
 /* ///////////// UNIVERSITYS CONAINER //////////////\ */
@@ -198,7 +205,6 @@ a h4 {
   margin-top: 40px;
 }
 .univercity-container img {
-  margin: 10px;
   width: 180px;
 }
 
@@ -209,18 +215,38 @@ a h4 {
 .univercity-container__images {
   margin: 30px 0px 30px 0px;
   display: flex;
-
-  gap: 15px;
+  gap: 20px;
 }
 .univercity-container__images a {
   border: black 1px solid;
 }
 
+.univercity-container__images h4 {
+  margin-bottom: 20px;
+}
+
+.logo-uoc {
+  margin: 15px 10px 10px 10px  ;
+}
+
+.logo-upc {
+  margin: 25px 10px 10px 10px ;
+}
+.logo-fira {
+  margin: 10px ;
+}
+.logo-bist {
+  margin: 20px 10px 10px 10px  ;
+}
 /* ///////////// FOOTER //////////////\ */
 
 .footer {
   background-color: #94bdd6;
   display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px
+
 }
 
 .footer ul {
@@ -230,6 +256,18 @@ a h4 {
 .footer-list__one {
   text-align: right;
   margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.footer-list__two{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: white 3px solid ;
+  padding-left: 20px;
 }
 
 /* ///////////// FOR NEWS.HTML //////////////\ */
@@ -239,13 +277,27 @@ a h4 {
 .news-container {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
 }
 
 .news-container_title {
   text-align: center;
+  margin-bottom: 25px;
+  
+}
+
+.flex-cont{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  
+
 }
 
 .news-container_title h1 {
+  margin-bottom: 25px;;
+  height: 100px;
   background-image: linear-gradient(#94bdd6, #ebf7ff);
 }
 
@@ -253,12 +305,29 @@ a h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 15px 15px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.156) 7px 7px 10px;
+}
+.news-container_post img{
+border-radius: 100%;
 }
 
 .news-container_post h3,
 p {
   text-align: center;
+}
+
+.news-container_post h3 {
+  background-color: #94bdd6;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.news-container_post p {
+  margin-bottom: 20px;
 }
