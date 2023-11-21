@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 /* ///////////// GLOBAL //////////////\ */
 
@@ -9,7 +9,7 @@
 }
 
 body {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: #ebebff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -31,7 +31,7 @@ h2 {
   align-items: center;
 }
 
-.header-container__title {
+.header-title {
   transform: rotate(180deg);
   text-align: center;
   width: 500px;
@@ -76,7 +76,7 @@ h2 {
 
 /* ///////////// FOR INDEX.HTML //////////////\ */
 
-/* ///////////// INTRO CONAINER //////////////\ */
+/* ///////////// INTRO CONTAINER //////////////\ */
 
 .intro-container {
   background-image: linear-gradient(#94bdd6, #ebf7ff);
@@ -89,23 +89,23 @@ h2 {
   gap: 15px;
 }
 
-.intro-container__content {
+.intro-content {
   font-size: 20px;
   line-height: 25px;
 }
 
-/* ///////////// EXPLAIN CONAINER //////////////\ */
+/* ///////////// EXPLAIN CONTAINER //////////////\ */
 
 .explain-container {
   width: 85%;
   margin-top: 40px;
 }
 
-.explain-container__title {
+.explain-title {
   border-bottom: #94bdd656 solid 4px;
 }
 
-.explain-container__itemlist {
+.explain-itemlist {
   list-style-type: none;
   margin: 20px 0px 0px 20px;
   display: flex;
@@ -113,32 +113,31 @@ h2 {
   gap: 20px;
 }
 
-.explain-container__itemlist li {
+.explain-itemlist li {
   background: url("/images/list-icon.png") no-repeat left center;
   padding-left: 30px;
   margin-bottom: 10px;
   font-size: 1.6rem;
 }
 
-/* ///////////// PRESS CONAINER //////////////\ */
+/* ///////////// PRESS CONTAINER //////////////\ */
 
 .press-container {
   width: 85%;
   margin-top: 40px;
-
 }
 
-.press-container__title {
+.press-title {
   border-bottom: #94bdd656 solid 4px;
 }
 
-.press-container__post-title {
+.post-title {
   background-color: #94bdd6;
 }
 
-/* ///////////// PRESS CONAINER => POST //////////////\ */
+/* ///////////// PRESS CONTAINER => POST //////////////\ */
 
-.press-container__post-cont {
+.post {
   box-shadow: rgba(0, 0, 0, 0.253) 4px 4px 4px;
   height: 225px;
   margin-top: 30px;
@@ -157,34 +156,34 @@ h2 {
   height: 50%;
   margin: 5%;
   color: #94bdd6;
-  }
+}
 
-  .post-marks{
-    font-family: 'BIZ UDPMincho', serif;
-    font-size: 4rem;
-    transform: rotate(180deg);
-    width: 5%;
-    height: 50%;
-  }
+.post-marks {
+  font-family: "BIZ UDPMincho", serif;
+  font-size: 4rem;
+  transform: rotate(180deg);
+  width: 5%;
+  height: 50%;
+}
 
-  .post-msg{
-    font-size: 1.2rem;
-    margin: 0px 0px 10px 70px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 300;
-  }
+.post-msg {
+  font-size: 1.2rem;
+  margin: 0px 0px 10px 70px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
 
-  .post-author{
-    text-align: right;
-    margin: 0px 20px 20px 0px;
-    font-style: italic; 
-    font-weight: 400;
-    font-family: Helvetica, sans-serif;
-  }
+.post-author {
+  text-align: right;
+  margin: 0px 20px 20px 0px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: Helvetica, sans-serif;
+}
 
-/* ///////////// UNIVERSITYS CONAINER //////////////\ */
+/* ///////////// UNIVERSITIES CONTAINER //////////////\ */
 
-.univercity-container a {
+.university-container a {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -200,44 +199,49 @@ a h4 {
   font-style: italic;
 }
 
-.univercity-container {
+.university-container {
   width: 85%;
   margin-top: 40px;
 }
-.univercity-container img {
+
+.university-container img {
   width: 180px;
 }
 
-.univercity-container__title {
+.university-title {
   border-bottom: #94bdd656 solid 4px;
 }
 
-.univercity-container__images {
+.university-images {
   margin: 30px 0px 30px 0px;
   display: flex;
   gap: 20px;
 }
-.univercity-container__images a {
+
+.university-images a {
   border: black 1px solid;
 }
 
-.univercity-container__images h4 {
+.university-images h4 {
   margin-bottom: 20px;
 }
 
 .logo-uoc {
-  margin: 15px 10px 10px 10px  ;
+  margin: 15px 10px 10px 10px;
 }
 
 .logo-upc {
-  margin: 25px 10px 10px 10px ;
+  margin: 25px 10px 10px 10px;
 }
+
 .logo-fira {
-  margin: 10px ;
+  margin: 10px;
 }
+
 .logo-bist {
-  margin: 20px 10px 10px 10px  ;
+  margin: 20px 10px 10px 10px;
 }
+
 /* ///////////// FOOTER //////////////\ */
 
 .footer {
@@ -245,12 +249,13 @@ a h4 {
   display: flex;
   justify-content: center;
   color: white;
-  padding: 30px
-
+  padding: 30px;
 }
 
-.footer ul {
+.footer ul,
+a {
   list-style-type: none;
+  text-decoration: none;
 }
 
 .footer-list__one {
@@ -259,20 +264,17 @@ a h4 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
 }
 
-.footer-list__two{
+.footer-list__two {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-left: white 3px solid ;
+  border-left: white 3px solid;
   padding-left: 20px;
 }
 
 /* ///////////// FOR NEWS.HTML //////////////\ */
-
-/* ///////////// NEWS CONTAINER //////////////\ */
 
 .news-container {
   display: flex;
@@ -280,28 +282,25 @@ a h4 {
   padding-top: 30px;
 }
 
-.news-container_title {
+.news-title {
   text-align: center;
   margin-bottom: 25px;
-  
 }
 
-.flex-cont{
+.news-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 50px;
-  
-
 }
 
-.news-container_title h1 {
-  margin-bottom: 25px;;
+.news-title h1 {
+  margin-bottom: 25px;
   height: 100px;
   background-image: linear-gradient(#94bdd6, #ebf7ff);
 }
 
-.news-container_post {
+.news-post {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -311,16 +310,16 @@ a h4 {
   border-radius: 15px 15px 0px 0px;
   box-shadow: rgba(0, 0, 0, 0.156) 7px 7px 10px;
 }
-.news-container_post img{
-border-radius: 100%;
+.news-post img {
+  border-radius: 100%;
 }
 
-.news-container_post h3,
+.news-post h3,
 p {
   text-align: center;
 }
 
-.news-container_post h3 {
+.news-post h3 {
   background-color: #94bdd6;
   width: 100%;
   height: 50px;
@@ -328,6 +327,6 @@ p {
   border-radius: 15px 15px 0px 0px;
 }
 
-.news-container_post p {
+.news-post p {
   margin-bottom: 20px;
 }

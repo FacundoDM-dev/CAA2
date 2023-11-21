@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Definición de la codificación de caracteres y la escala inicial -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de la página -->
     <title>Home</title>
+    <!-- Enlace a la hoja de estilos y favicon -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./images/favicon.png" />
   </head>
 
   <body>
-
+    <!-- Encabezado de la página -->
     <header class="header-container">
-      <h1 class="header-container__title">
-        HacTe. Hub of Art, Science and Technology
-      </h1>
+      <!-- Título del encabezado -->
+      <h1 class="header-title">HacTe. Hub of Art, Science and Technology</h1>
     </header>
 
+    <!-- Contenedor principal de navegación y contenido -->
     <div class="nav-main-container">
-
+      <!-- Navegación principal -->
       <nav class="nav">
+        <!-- Lista de elementos de navegación -->
         <ul>
           <li><a href="">What is it?</a></li>
           <li><a href="./news.html">News</a></li>
@@ -28,23 +32,29 @@
         </ul>
       </nav>
 
+      <!-- Contenido principal -->
       <main class="main">
-
+        <!-- Contenedor de introducción -->
         <div class="intro-container">
-          <h2 class="intro-container__title">WHAT IS HAC TE?</h2>
-          <p class="intro-container__content">
+          <!-- Título de la introducción -->
+          <h2 class="intro-title">WHAT IS HAC TE?</h2>
+          <!-- Contenido de la introducción -->
+          <p class="intro-content">
             Explore and develop intersections between art, science and
             technology to boost the digital transformation of society: this is
             the aim of Hac Te (Art, Science and Technology Hub), promoted by
-            catalan institutions of great relevance to make Barcelona a global
+            Catalan institutions of great relevance to make Barcelona a global
             centre for research, training, dissemination, transfer and
             production in this field.
           </p>
         </div>
 
+        <!-- Contenedor de explicación -->
         <div class="explain-container">
-          <h2 class="explain-container__title">Hac Te is</h2>
-          <ul class="explain-container__itemlist">
+          <!-- Título de la explicación -->
+          <h2 class="explain-title">Hac Te is</h2>
+          <!-- Lista de puntos de la explicación -->
+          <ul class="explain-itemlist">
             <li>
               A hybrid environment connecting knowledge and disciplines in art,
               science and technology
@@ -60,42 +70,59 @@
           </ul>
         </div>
 
+        <!-- Contenedor de comunicados de prensa -->
         <div class="press-container">
-          <h2 class="press-container__title">Press Releases</h2>
+          <!-- Título de los comunicados de prensa -->
+          <h2 class="press-title">Press Releases</h2>
 
-          <div class="press-container__post-cont">
+          <!-- Contenedor de un comunicado de prensa -->
+          <div class="post">
+            <!-- Título del comunicado de prensa -->
             <h4 class="post-title">La Vanguardia</h4>
+            <!-- Contenido del comunicado de prensa -->
             <div class="post-content">
               <h1 class="post-marks">"</h1>
-              <h4 class="post-msg">Una apuesta de éxito para Barcelona</h4>
+              <blockquote class="post-msg">
+                Una apuesta de éxito para Barcelona
+              </blockquote>
               <h5 class="post-author">Miquel Molina</h5>
             </div>
           </div>
 
-          <div class="press-container__post-cont">
+          <!-- Contenedor de otro comunicado de prensa -->
+          <div class="post">
+            <!-- Título del comunicado de prensa -->
             <h4 class="post-title">El País</h4>
+            <!-- Contenido del comunicado de prensa -->
             <div class="post-content">
               <h1 class="post-marks">"</h1>
-              <h4 class="post-msg">
-                La intersección entre arte y ciencia en el mundo post-pandémico
-              </h4>
+              <blockquote class="post-msg">
+                "La intersección entre arte y ciencia en el mundo
+                post-pandémico."
+              </blockquote>
               <h5 class="post-author">Xavier Ruiz, Manuela Reyes</h5>
             </div>
           </div>
         </div>
 
-        <div class="univercity-container">
-          <h2 class="univercity-container__title">Who is in Hac Te</h2>
-          <div class="univercity-container__images">
-            <a href="">
+        <!-- Contenedor de universidades -->
+        <div class="university-container">
+          <!-- Título de las universidades -->
+          <h2 class="university-title">Who is in Hac Te</h2>
+          <!-- Contenedor de imágenes de universidades -->
+          <div class="university-images">
+            <!-- Enlace e imagen de la Universidad Abierta de Cataluña (UOC) -->
+            <a href="https://www.uoc.edu/portal/ca/index.html">
               <img class="logo-uoc" src="/images/UOC.png" alt="Logo-uoc" />
               <h4>UOC</h4>
             </a>
-            <a href="">
+            <!-- Enlace e imagen de la Universidad Politécnica de Cataluña (UPC) -->
+            <a href="https://www.upc.edu/ca">
               <img class="logo-upc" src="/images/upc.png" alt="Logo-upc" />
               <h4>UPC</h4>
             </a>
-            <a href="">
+            <!-- Enlace e imagen de Fira Barcelona -->
+            <a href="https://www.firabarcelona.com/es/">
               <img
                 class="logo-fira"
                 src="/images/fira-barcelona.png"
@@ -103,39 +130,33 @@
               />
               <h4>Fira</h4>
             </a>
-            <a href="">
+            <!-- Enlace e imagen de BIST -->
+            <a href="https://bist.eu/">
               <img class="logo-bist" src="/images/bist.png" alt="Logo-bist" />
               <h4>Bist</h4>
             </a>
           </div>
-
         </div>
-
       </main>
-      
     </div>
 
+    <!-- Pie de página -->
     <footer class="footer">
+      <!-- Lista uno del pie de página -->
       <ul class="footer-list__one">
         <li>Reto 2</li>
         <li>Realizado por: (nombre alumno)</li>
         <li>Asignatura "HTML y CSS" Aula (indicar número)</li>
       </ul>
+      <!-- Lista dos del pie de página -->
       <ul class="footer-list__two">
         <li>Elaborado a partir de HacTe</li>
         <li>
-          Se puede consultar completo en: hactebcn.org/en/.
-          <a href="https://hactebcn.org/en/">Link</a>
+          Se puede consultar completo en:
+          <a href="https://hactebcn.org/en/">hactebcn.org/en/</a>
         </li>
         <li>
           Fondo cabecera: Imagen de rawpixel.com en Freepik.
           <a
             href="https://www.freepik.es/vector-gratis/v915_34378701.htm#query=background%20header&position=1&from_view=search&track=ais"
             >Link</a
-          >
-        </li>
-      </ul>
-    </footer>
-
-  </body>
-</html>

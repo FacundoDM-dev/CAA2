@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Definición de la codificación de caracteres y escala inicial -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de página -->
     <title>News</title>
+    <!-- Enlace a la hoja de estilos y favicon -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./images/favicon.png" />
   </head>
-  <body>
 
+  <body>
+    <!-- Encabezado de la página -->
     <header class="header-container">
-      <h1 class="header-container__title">
+      <!-- Título del encabezado -->
+      <h1 class="header-title">
         HacTe. Hub of Art, Science and Technology
       </h1>
     </header>
 
+    <!-- Contenedor principal de navegación y contenido -->
     <div class="nav-main-container">
-
+      <!-- Navegación principal -->
       <nav class="nav">
+        <!-- Lista de elementos de navegación -->
         <ul>
           <li><a href="./index.html">What is it?</a></li>
           <li><a href="./news.html">News</a></li>
@@ -27,74 +34,76 @@
         </ul>
       </nav>
 
+      <!-- Contenido principal -->
       <main class="main">
-
+        <!-- Contenedor de noticias -->
         <div class="news-container">
-
-          <div class="news-container_title">
-
+          <!-- Título de noticias -->
+          <div class="news-title">
             <h1>Blocks News</h1>
 
-            <div class="flex-cont">
-
-              <div class="news-container_post">
+            <!-- Contenedor flexible para las entradas de noticias -->
+            <div class="news-content">
+              <!-- Entrada de noticia 1 -->
+              <article class="news-post">
                 <h3>Chemical Ecosystem from Yolanda Uriz</h3>
                 <img src="./images/Chemical.jpg" alt="Chemical Ecosystem" />
                 <p>
-                  From June 15th to 17th, Hac Te and the recently created Red
+                  From June 15th to 17th, HacTe and the recently created Red
                   ACTS
                 </p>
-              </div>
+              </article>
 
-              <div class="news-container_post">
+              <!-- Entrada de noticia 2 -->
+              <article class="news-post">
                 <h3>Andy Gracie wins the Randa Art|Science Residency</h3>
                 <img src="./images/gracie.png" alt="Andy Gracie Wins" />
                 <p>
                   We are thrilled to announce the Randa Art|Science Residency
                 </p>
-              </div>
+              </article>
 
-              <div class="news-container_post">
+              <!-- Entrada de noticia 3 -->
+              <article class="news-post">
                 <h3>Open call for films generated with AI</h3>
                 <img src="./images/film.png" alt="Rain Film Fest" />
                 <p>
                   RAIN Film Fest is the first European festival of films
                   generated with artificial intelligence
                 </p>
-              </div>
-
+              </article>
             </div>
-
           </div>
-
         </div>
-
       </main>
-
     </div>
 
+    <!-- Pie de página -->
     <footer class="footer">
+      <!-- Lista uno del pie de página -->
       <ul class="footer-list__one">
         <li>Reto 2</li>
         <li>Realizado por: (nombre alumno)</li>
         <li>Asignatura "HTML y CSS" Aula (indicar número)</li>
       </ul>
+      <!-- Lista dos del pie de página -->
       <ul class="footer-list__two">
         <li>Elaborado a partir de HacTe</li>
         <li>
-          Se puede consultar completo en: hactebcn.org/en/.
-          <a href="https://hactebcn.org/en/">Link</a>
+          Se puede consultar completo en:
+          <a href="https://hactebcn.org/en/" target="_blank"
+            >hactebcn.org/en/</a
+          >
         </li>
         <li>
           Fondo cabecera: Imagen de rawpixel.com en Freepik.
           <a
             href="https://www.freepik.es/vector-gratis/v915_34378701.htm#query=background%20header&position=1&from_view=search&track=ais"
+            target="_blank"
             >Link</a
           >
         </li>
       </ul>
     </footer>
-
   </body>
-
 </html>
