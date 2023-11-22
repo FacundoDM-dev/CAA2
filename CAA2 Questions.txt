@@ -1,0 +1,49 @@
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+Pregunta 1
+
+Importancia: La regla !important se utiliza para dar más peso a una declaración de estilo. Cuando una regla de estilo tiene la declaración !important, tiene prioridad sobre otras reglas, independientemente de su especificidad u orden.
+
+Especificidad: La especificidad es una medida de cuán específico es un selector al dirigirse a un elemento. A menudo se representa como un valor de cuatro partes: a, b, c, d. Los valores se basan en la cantidad de selectores de ID, selectores de clase y selectores de elemento en el selector. Cuanto mayor sea el número, mayor será la especificidad. Por ejemplo, 1, 0, 0, 0 es menos específico que 0, 1, 0, 0.
+
+Orden: Si dos reglas tienen la misma especificidad, la que aparece más tarde en la hoja de estilos o en el documento HTML tiene prioridad. La regla posterior anula a la anterior.
+
+p a.ref = 0, 1, 2, 0 (1 clase + 2 elemento)
+#main a:focus = 1, 1, 1, 0 (1 ID + 1 atributo + 1 elemento)
+aside .menu li:last-child = 0, 2, 2, 0 (1 clase + 1 atributo + 2 elementos)
+section h2 + i = 0, 0, 3, 0 (3 elementos)
+#news > img[src|="logo"]: 1, 1, 1, 0 (1 ID + 1 atributo + 1 elemento)
+
+Orden de mayor a menor especificidad:
+section h2 + i: 0, 0, 3, 0 (3 elementos)
+p a.ref: 0, 1, 2, 0 (1 clase + 2 elementos)
+#main a:focus: 1, 1, 1, 0 (1 ID + 1 atributo + 1 elemento)
+#news > img[src|="logo"]: 1, 1, 1, 0 (1 ID + 1 atributo + 1 elemento)
+aside .menu li:last-child: 0, 2, 2, 0 (1 clase + 1 atributo + 2 elementos)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+Pregunta 2
+
+Tipo de Discapacidad: Discapacidad Visual.
+Descripción: Condiciones que afecten la visión, incluyendo la ceguera y la baja	visión.
+Herramientas y Técnicas: Pantallas braille, Opciones de alto contraste, Tamaños de fuente, Software de texto de voz.
+
+Tipo de Discapacidad: Discapacidades Auditivas
+Descripción: Condiciones que afectan la audición, incluyendo la sordera.
+Herramientas y Técnicas: Subtitulos cerrados para videos, Alertas visuales, Vibraciones, Transcripciones para contenido de audio.
+
+Tipo de Discapacidad: Discapacidades Motoras o de Movilidad.
+Descripción: Condiciones que afectan al movimiento físico.
+Herramientas y Técnicas: Navegacion via teclado, Sofware de reconocimiento de voz, Dispositivos de entrada especificos.
+
+Tipo de Discapacidad: Discapacidades Cognitivas.
+Descripción: Condiciones que afectan funciones cognitivas, incluyendo discapacidades de aprendizaje.
+Herramientas y Técnica: Navegación simplificada y consistente, Contenido claro y conciso con lenguaje fácil de entender, Fuentes legibles y diseños bien organizados.
+
+Tipo de Discapacidad: Fotosensibilidad.
+Descripción: Condiciones en las que la exposición a ciertos patrones visuales o luces intermitentes puede causar convulsiones.
+Herramientas y Técnica: Evitar contenido intermitente o parpadeante, Proporcionar opciones para ajustar el contraste y la luminosidad.
+ 
